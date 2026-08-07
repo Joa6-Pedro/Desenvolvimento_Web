@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+    height: 5vh;
+    background-color: #005E3E;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.sign-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 5vw;
+    padding: 2vh 2vw;
+    background-color: rgb(187, 186, 186);
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.sign-container h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0;
+}
+
+.inputBox {
+    margin-bottom: 1vh;
+}
+
+label {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    height: 4vh;
+    font-size: 0.9em;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    margin-top: 1vh;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.signLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
