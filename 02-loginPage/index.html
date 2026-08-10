@@ -19,23 +19,32 @@
                     <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
                 </div>
                 <span>Ou use seu Email para registro</span>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Nome">
 
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Email">
+                
+                <div class="inputContainer">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Nome">
+                </div>
 
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" placeholder="Senha">
+                <div class="inputContainer">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
 
-                <label for="confirmeSenha">Confirmar Senha</label>
-                <input type="password" name="confirmeSenha" placeholder="Senha">
+                <div class="inputContainer">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <div class="inputContainer">
+                    <label for="confirmeSenha">Confirmar Senha</label>
+                    <input type="password" name="confirmeSenha" placeholder="Senha">
+                </div>
 
                 <button>Registrar-se</button>
             </form>
         </div>
 
-        <div class="formContainer signUp">
+        <div class="formContainer signIn">
             <form>
                 <h1>Entrar</h1>
                 <div class="socialIcons">
@@ -45,11 +54,15 @@
                 </div>
                 <span>Ou entre usando seu Email e senha</span>
 
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Email">
+                <div class="inputContainer">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
 
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" placeholder="Senha">
+                <div class="inputContainer">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
 
                 <a href="#">Esqueceu a senha?</a>
                 <button>Entrar</button>
@@ -58,14 +71,14 @@
         <div class="toggleContainer">
             <div class="toggle">
                 <div class="togglePanel toggleLeft">
+                    <h1>Já possui conta?</h1>
+                    <p>Entre para ter acesso a todo o conteúdo do site</p>
+                    <button class="hidden" id="entrar">entrar</button>
+                </div>
+                <div class="togglePanel toggleRight">
                     <h1>Novo por aqui?</h1>
                     <p>Registre-se para ter acesso a todo o conteúdo do site</p>
                     <button class="hidden" id="criarConta">Criar Conta</button>
-                </div>
-                <div class="togglePanel toggleRight">
-                    <h1>Já possui conta?</h1>
-                    <p>Entre para ter acesso a todo o conteúdo do site</p>
-                    <button class="hidden" id="Entrar">entrar</button>
                 </div>
             </div>
         </div>
