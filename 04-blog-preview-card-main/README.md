@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/Joa6-Pedro/Desenvolvimento_Web/tree/main/04-blog-preview-card-main)
-- Live Site URL: [](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Joa6-Pedro/Desenvolvimento_Web/tree/main/04-blog-preview-card-main)
+- Live Site URL: [Live Site](https://your-live-site-url.com)
 
 ## My process
 
